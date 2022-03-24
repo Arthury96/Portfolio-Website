@@ -126,6 +126,91 @@ h3 {
   text-align: center;
 }
 
+#home {
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  padding: 0 50px;
+  background-image: url('../styles/img/02C.jpg');
+  background-position: center;
+}
+
+#home .list {
+  width: 500px;
+  background-color: white;
+  border-radius: 19px;
+}
+
+#home h2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 19px;
+}
+
+#home .text_disc {
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+#business {
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  padding: 0 50px;
+}
+
+#business .list {
+  width: 500px;
+}
+
+#check {
+  height: 900px;
+  background-image: url('../styles/img/get-wired-internet-upstairs-1-1.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+}
+
+.box {
+  margin: 30px;
+  padding: 40px;
+  background-color: white;
+  max-height: 200px;
+  border-radius: 15px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.social_network {
+  text-align: center;
+}
+
+.social_network img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#help nav ul {
+  list-style-type: none;
+}
+
+#help {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 650px) {
   header {
     flex-direction: column;
@@ -162,5 +247,65 @@ h3 {
 
   header nav ul li {
     margin: 5px;
+  }
+
+  .content {
+    border-radius: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .content img {
+    max-height: 5000px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #home {
+    padding: 0;
+  }
+
+  #home .list {
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    margin: 50px 0;
+  }
+
+  #home h2 {
+    border-radius: 0px;
+    margin: 50px 0px;
+  }
+
+  #home .text_disc {
+    border-radius: 0px;
+    margin: 50px 0px;
+  }
+
+  #business {
+    padding: 0;
+  }
+
+  #business .list {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  #check {
+    height: 750px;
+    justify-content: center;
+  }
+
+  .box {
+    margin: 70px 0;
+    padding: 40px;
+    max-height: 100%;
+    border-radius: 0px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
   }
 }
